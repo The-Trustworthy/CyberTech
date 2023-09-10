@@ -45,48 +45,37 @@
 								</div>
 							</section>
 
-					</div>
-					<section id="uploader">
-						<div class="inner">
-					
-							<div id="main">
-								<div class="container">
-									<div class="row">
-										<h1>File upload</h1>
-									</div>
-									<div class="row">
-										<p class="lead">
-											You can just upload [jpeg,gif] files.<br />
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="container">
+							<section id="uploader">
+								<div class="inner">
+									<header class="major">
+										<h1>Contribute</h1>
+									</header>
+									<p>At CyberTech, you have the opportunity to shape our tech education gallery by submitting your valuable content in the form of images. Share banners for your cybersecurity-oriented tech tutorials, coding projects, or educational resources related to the field with us, and together, we can enrich the learning experience for our community. Your contributions make a significant impact on the tech education landscape, inspiring and empowering learners around the world.</p>
 
-								<div class="row">
-									<form action="gallery.php" method="post" enctype="multipart/form-data">
+									<form action="gallery.php#uploader" method="post" enctype="multipart/form-data">
 										<div class="form-group col-md-3">
-											<input type="file" id="fileToUpload" name="fileToUpload" accept="image/gif, image/jpeg" required>
+											<p>Upload an image here (.png, .jpg, .gif, or .bmp format accepted):
+											<input type="file" id="fileToUpload" name="fileToUpload" accept="image/gif, image/jpeg" style="margin-left: 5%" required></p>
 											<input type="submit" value="Upload" class="form-control btn btn-default" name="submit">
 										</div>
 									</form>
-								</div>
 
-								<?php
-								$target_dir = "uploads/";
-								
-								if(isset($_POST["submit"])) {
-									$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-									if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-										echo "<p class=\"alert-success\">The file has been uploaded here: <a href=\"$target_file\">$target_file</a>.</p>";
-									} else {
-										echo "<p class=\"alert-danger\">Sorry, there was an error uploading your file.</p>";
-									}
-								}
-								?>
-								<script type="text/javascript" src="static/css/bootstrap.min.js"></script>
-						</div>
-					</section> 
+									<?php
+										$target_dir = "uploads/";
+										
+										if(isset($_POST["submit"])) {
+											$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+											if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
+												echo "<p class=\"alert-success\">Your contribution has been acknowledged and is currently under review. You can view your file at <a href=\"$target_file\">$target_file</a>.</p>";
+											} else {
+												echo "<p class=\"alert-danger\">Sorry, there was an error uploading your file.</p>";
+											}
+										}
+									?>
+								</div>
+							</section> 
+					</div>
+					
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">
