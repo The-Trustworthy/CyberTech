@@ -27,6 +27,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="content.html">Content</a></li>
 							<li><a href="gallery.php">Gallery</a></li>
+							<li><a href="index.html#organizers">Know More</a></li>
 						</ul>
 						
 					</nav>
