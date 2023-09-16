@@ -2,17 +2,15 @@ version: '3.1'
 
 services:
   web:
-    container_name: CyberTech
+    container_name: CyberTechWeb
     build:
       context: .
-      dockerfile: Dockerfile
     volumes:
        - ./.docker/000-default.conf:/etc/apache2/sites-available/000-default.conf
-  
-  php:
-    image: php:7.4-apache
+
+  cybertech:
+    image: cybertech:latest
     ports:
       - 9999:80
     volumes:
       - ./src:/var/www/html/
-  

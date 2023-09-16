@@ -1,3 +1,5 @@
-FROM php:7.4-cli
+FROM php:apache
+
 COPY ./src/ /var/www/html
+
 WORKDIR /var/www/html
