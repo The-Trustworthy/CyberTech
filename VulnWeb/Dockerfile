@@ -1,3 +1,6 @@
-FROM php:7.4-cli
+# FROM php:apache
+FROM raviprakash1907/cybertech:latest
+
 COPY ./src/ /var/www/html
+
 WORKDIR /var/www/html
