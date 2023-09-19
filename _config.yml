@@ -1,3 +1,4 @@
 title: CyberTech
 description: Providing a free hand to learn ethical hacking!
-theme: jekyll-leap-day
+show_downloads: False
+theme: jekyll-theme-leap-day
