@@ -15,7 +15,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>CyberTech</strong> <span>by socse duk</span></a>
+						<a href="index.html" class="logo"><strong>CyberTech</strong> <span>for Hackers</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -107,7 +107,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">cybertech@duk.ac.in</a>
+										<a href="#">cybertech@email.com</a>
 									</div>
 								</section>
 								<section>

@@ -1,4 +1,4 @@
-# DUKCyberTech
+# CyberTech
 
 ![banner-cybertech](./assets/banner.png)
 
