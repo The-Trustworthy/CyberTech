@@ -12,45 +12,45 @@ Before attempting challenges, the following setup is necessary:
 
     .
     .
-    ├── .docker                                     # docker configration
+    ├── .docker                                                             # docker configration
     │   │
     │   └── 000-default.conf         
     │
-    ├── src                                         # complete source code
+    ├── src                                                                 # complete source code
     │   │
     │   ├── assets
     │   │   │
-    │   │   ├── css                                 # required css 
+    │   │   ├── css                                                         # required css 
     │   │   │ 
-    │   │   ├── js                                  # required js
+    │   │   ├── js                                                          # required js
     │   │   │ 
-    │   │   ├── sass                                # required sass
+    │   │   ├── sass                                                        # required sass
     │   │   │ 
-    │   │   └── webfonts                            # required fonts
+    │   │   └── webfonts                                                    # required fonts
     │   │
-    │   ├── resources                               # additional resources 
+    │   ├── resources                                                       # additional resources 
     │   │   │
     │   │   ├── theme/bootstrap 
     │   │   │ 
-    │   │   ├── config.php                          # and similar scripts
-    │   │   │ 
+    │   │   ├── config.php                                                  # and similar scripts
+    │   │   . 
     │   │   └── ...
     │   │
-    │   ├── uploads                                 # room for uploaded files 
+    │   ├── uploads                                                         # room for uploaded files 
     │   │   │
     │   │   ├── .gitkeep
-    │   │   │ 
+    │   │   . 
     │   │   └── ...
     │   │
-    │   ├── images                                  # all images 
-    │   │   │ 
+    │   ├── images                                                          # all images 
+    │   │   . 
     │   │   └── ...
     │   │
-    │   ├── static                                  # static css/js/font etc.. 
-    │   │   │ 
+    │   ├── static                                                          # static css/js/font etc.. 
+    │   │   . 
     │   │   └── ...
     │   │
-    │   ├── index.html                              # landing page 
+    │   ├── index.html                                                      # landing page 
     │   │
     │   ├── content.html 
     │   │
@@ -68,9 +68,9 @@ Before attempting challenges, the following setup is necessary:
 
 ### Using Apache Server  
 
-### Using Official Docker Image  
+In order to run as a 
 
-#### Using `docker-cpmpose`  
+### Using Docker  
 
 ### Using custom Docker container  
 
