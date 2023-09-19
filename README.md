@@ -66,7 +66,7 @@ Before attempting challenges, the following setup should necessarily be there in
 
 ## Usage  
 
-### Using Apache/WAMPP/XAMPP Server  
+### Using Apache/WAMP/XAMPP Server  
 
 In order to run on the local server, the online resources could be offered. Following links could be helpful:  
 
