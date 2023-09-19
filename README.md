@@ -66,6 +66,8 @@ Before attempting challenges, the following setup should necessarily be there in
 
 ## Usage  
 
+There are multiple ways to use this project. Visit [here](./VulnWeb/) for some detailed description.
+
 ### Using Apache/WAMP/XAMPP Server  
 
 In order to run on the local server, the online resources could be offered. Following links could be helpful:  
