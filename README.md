@@ -72,7 +72,7 @@ There are multiple ways to use this project. Visit [here](./VulnWeb/) for some d
 
 In order to run on the local server, the online resources could be offered. Following links could be helpful:  
 
-1. Uisng [Apache on Windows](https://www.tutorialspoint.com/php/php_installation_windows_apache.htm) _(by Tutorialspoint)_  
+1. Using [Apache on Windows](https://www.tutorialspoint.com/php/php_installation_windows_apache.htm) _(by Tutorialspoint)_  
 2. Using [WAMP](https://www.instructables.com/How-to-Run-a-PHP-Script-With-Wamp-Server/) _(by Instructables)_  
 3. Using [XAMPP](https://www.simplilearn.com/tutorials/php-tutorial/php-using-xampp) _(by Simplilearn)_  
 
