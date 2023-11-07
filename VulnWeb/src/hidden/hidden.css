@@ -1,0 +1,64 @@
+/* This CSS rule applies styles to the <body> element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* This CSS rule applies styles to the <header> element */
+header {
+    background-color: black;
+    color: #149414; /* Green color (hex) */
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* This CSS rule applies styles to elements with the class "glow" */
+.glow {
+    font-size: 80px;
+    color: #149414; /* Green color (hex) */
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* This is a keyframes animation named "glow" */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00, 0 0 60px #00FF00, 0 0 70px #00FF00;
+    }
+    to {
+        text-shadow: 0 0 10px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00, 0 0 60px #00FF00, 0 0 70px #00FF00, 0 0 80px #00FF00;
+    }
+}
+
+/* This CSS rule applies styles to the <h1> element */
+h1 {
+    margin: 0;
+}
+
+/* This CSS rule applies styles to elements with the class "container" */
+.container {
+    font-size: 40px;
+    color: #00FF00; /* Green color (hex) */
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* This CSS rule applies styles to <button> elements */
+button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* This CSS rule changes the button's background color on hover */
+/* 2/3 of what you are searching :_3xpl0r3r_ */
+button:hover {
+    background-color: #0056b3;
+}
