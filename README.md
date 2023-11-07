@@ -78,7 +78,28 @@ In order to run on the local server, the online resources could be offered. Foll
 
 ### Using Docker  
 
-You need to run following commands in sequence to access the website in Docker:  
+#### 1. Run the _`latest`_ Image
+
+**Step-1:**  
+
+Create a new directory in your current working directory (let `test`)  
+
+**Step-2:**  
+
+Open the command prompt/terminal in working directory and run the following command:  
+```sh
+docker run -p 9999:80 -v .\test\:/var/www/html/uploads/ raviprakash1907/cybertech:latest
+```
+
+**Step-3:**  
+
+Access the website at [http://localhost:9999](http://localhost:9999)  
+
+**NOTE:** _You can mount any directory by providing the relative path in place of `test` in **step-2**._  
+
+#### 2. Clone this Repo and Build your own Image
+
+You need to run the following commands in sequence to access the website in Docker:  
 
 **Step-1:**  
 
