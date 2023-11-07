@@ -88,7 +88,7 @@ Create a new directory in your current working directory (let `test`)
 
 Open the command prompt/terminal in working directory and run the following command:  
 ```sh
-docker run -p 9999:80 -v .\test\:/var/www/html/uploads/ raviprakash1907/cybertech:latest
+docker run --rm -p 9999:80 -v .\test\:/var/www/html/uploads/ raviprakash1907/cybertech:latest
 ```
 
 **Step-3:**  
